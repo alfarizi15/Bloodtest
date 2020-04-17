@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".almost"
+    android:background="@color/colorPrimary"
+    android:padding="25dp"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Almost There"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:textSize="35dp"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Thank you for registering with us. One more"
+        android:layout_marginTop="220dp"
+        android:gravity="center_horizontal"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="step, you to check your email"
+        android:layout_marginTop="240dp"
+        android:gravity="center_horizontal"
+
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text=" to active account"
+        android:layout_marginTop="260dp"
+        android:gravity="center_horizontal"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/Verify"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_marginTop="350dp"
+        android:text="Verify"
+        android:elevation="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:onClick="verify"
+        />
+
+</RelativeLayout>

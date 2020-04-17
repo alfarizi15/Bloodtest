@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="30dp"
+    android:textSize="20dp"
+
+    >
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_welcome_logo"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"/>
+
+
+
+
+    <EditText
+        android:id="@+id/txtusername"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="4dp"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:paddingBottom="20dp"
+        android:layout_marginRight="4dp"
+        android:backgroundTint="@color/white"
+        >
+    </EditText>
+
+
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:paddingBottom="20dp"
+        android:backgroundTint="@color/white"
+        >
+    </EditText>
+
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:elevation="0dp"
+        android:onClick="almost"
+        android:text="lOGIN"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="OR"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+
+        >
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/bt_fb"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:text="connect with facebook"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:minHeight="0dp"
+        android:textAllCaps="true"
+        android:minWidth="0dp"
+        android:background="@drawable/button"
+        android:drawableLeft="@drawable/ic_welcome_fb_login"
+        android:drawableStart="@drawable/ic_welcome_fb_login"
+        android:paddingLeft="60dp"
+        android:paddingRight="62dp"
+
+        android:onClick="coba"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:paddingRight="10dp"
+            android:text="@string/register"
+            android:textColor="@color/white"
+
+
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Register"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/lblregister"
+            android:clickable="true"
+            android:onClick="daftar"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
