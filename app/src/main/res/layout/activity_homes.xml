@@ -113,6 +113,7 @@
         </TextView> <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="330"
         android:textSize="25dp"
         android:textColor="@color/colorPrimary"
@@ -137,7 +138,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Blood Give"
+            android:text="BLOOD GIVE"
             android:textColor="@color/grey"
 
             >
@@ -146,7 +147,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Blood Receive"
+            android:text="BLOOD RECEIVE"
             android:textColor="@color/grey"
             android:paddingLeft="30dp"
             android:paddingRight="50dp"
@@ -155,7 +156,7 @@
         </TextView> <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Thanx"
+        android:text="THANKS"
         android:textColor="@color/grey"
         android:paddingRight="15dp"
         >

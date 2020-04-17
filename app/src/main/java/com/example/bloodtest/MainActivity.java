@@ -66,8 +66,9 @@ public class MainActivity extends AppCompatActivity {
             alertDialog.show();
         }else{
 
+
         }
-        
+
     }
     public void daftar(View view) {
         Intent daftar= new Intent(MainActivity.this, Daftar.class);
@@ -79,6 +80,11 @@ public class MainActivity extends AppCompatActivity {
             Intent coba = new Intent(this, almost.class);
             startActivity(coba);
         }
+
+    public void almost (View view){
+        Intent almost = new Intent(this, almost.class);
+        startActivity(almost);
+    }
 
 
 }
